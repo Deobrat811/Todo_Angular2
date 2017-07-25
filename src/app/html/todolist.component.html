@@ -1,0 +1,21 @@
+<div class="listbody">
+
+    <div class="container listheader">
+        <h3>Header</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div *ngFor="let todo of todolist">
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="notes">
+                        <h4>{{todo.name}}<a href="#"><span class="glyphicon glyphicon-remove"></span></a></h4>
+
+                        <p> {{todo.description}}</p>
+                        <p class="date">{{todo.date}}</p>
+                    </div>
+                    <button type="button" class="btn btn-success" id="listbtn">Mark as done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

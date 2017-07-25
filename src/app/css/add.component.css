@@ -1,0 +1,59 @@
+.addbody {
+            background-image: url("image/addbg.jpg");
+            background-repeat: none;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            text-align: center;
+            color: #f2601d;
+        }
+        
+        .formclass {
+            box-shadow: 10px 10px #484848;
+            border-radius: 0px 0px 20px 20px;
+            background-color: white;
+            height: 550px;
+            margin-top: 20px;
+        }
+        
+        .form-group {
+            padding: 20px;
+        }
+        
+       
+       
+ body{
+     background-image: url("app/img/header.jpg");
+ }
+ .toitem {
+            background-image: url("app/img/notes.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            height: 300px;
+            border-radius: 0px 0px 20px 20px;
+            box-shadow: 10px 10px 5px #484848;
+            border-color: red;
+            margin-top: 150px;
+            text-transform: uppercase;
+            word-wrap: break-word;
+        }
+
+#date
+{
+    position: absolute;
+    bottom:40px;
+    float: right;
+}
+#addbtn
+{
+   margin-top: 20px;
+}
+#seelistbtn
+{
+    margin-top: 10px;
+}
